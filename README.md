@@ -1,4 +1,4 @@
-#  ![image](https://github.com/user-attachments/assets/5e418b98-d665-45b0-b647-3a620d46ddc1)![image](https://github.com/user-attachments/assets/a4476c68-3bbc-4efb-aa49-6436c09e0bec) ESP8266
+#  ![image](https://github.com/user-attachments/assets/a55e12d6-8fe2-4643-90fd-a358bbebfc98)![image](https://github.com/user-attachments/assets/a4476c68-3bbc-4efb-aa49-6436c09e0bec) ESP8266
 
 This repository contains code and resources for working with the ESP8266 microcontroller. The primary focus of this project is to provide a learning and experimentation environment, making it useful for anyone looking to gain experience with the ESP8266.
 
