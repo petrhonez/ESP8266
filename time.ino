@@ -4,8 +4,8 @@
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 
-const char* ssid = "APTO 26";
-const char* password = "pjcandez25";
+const char* ssid = "WEB_NAME";
+const char* password = "PASSWORD";
 
 // LCD
 LiquidCrystal_I2C lcd(0x27, 16, 2);
