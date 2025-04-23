@@ -4,7 +4,7 @@
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 
-const char* ssid = "WEB_NAME";
+const char* ssid = "SSID";
 const char* password = "PASSWORD";
 
 // LCD
@@ -21,7 +21,7 @@ void setup() {
 
   WiFi.begin(ssid, password);
   lcd.setCursor(0, 0);
-  lcd.print("Conectando...");
+  lcd.print("Conecting...");
 
   while (WiFi.status() != WL_CONNECTED) {
     delay(500);
@@ -37,7 +37,7 @@ void loop() {
   timeClient.update();
 
   lcd.setCursor(0, 0);
-  lcd.print("Hora:");
+  lcd.print("Time:");
   
   lcd.setCursor(0, 1);
   lcd.print(timeClient.getFormattedTime());
